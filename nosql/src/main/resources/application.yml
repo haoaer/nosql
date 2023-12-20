@@ -1,0 +1,24 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: ""
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 1
+
+    mongodb:
+#      host: localhost
+#      port: 27017
+      host: 192.168.61.128
+      port: 27021
+      database: "mon"
+
+server:
+  port: 8888
+
